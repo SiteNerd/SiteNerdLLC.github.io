@@ -10,6 +10,7 @@
     text-decoration: none;
 }
 
+
 .big-checkbox {
     width: 20px;
     height: 20px;
@@ -19,31 +20,45 @@
     position: relative;
     text-align: center;
     margin: 0 auto;
+    margin-top: 5px;
     height: auto;
     width: 100%;
-    background-color: none;
-    border-collapse: collapse;
+    background-color: #2F3131;
+    border: 3px solid #426E86;
+    border-radius: 25px;
+    vertical-align: middle;
+}
+
+.secDiv {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5px;
+    height: auto;
+    width: 100%;
+    background-color: #F9BA32;
+    border: 3px solid #426E86;
+    border-radius: 25px;
+    vertical-align: middle;
 }
 
 blockquote {
     display: block;
     vertical-align: middle;
-    color: #F8F1E5;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
+    color: 2F3131;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     border-color: #426E86;
 }
 
 body {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    color: #F8F1E5;
+    color: #2F3131;
     font-size: 12px;
-    background-color: #2F3131;
-    height: 100vh;
-    width: 100vw;
+    background-color: #F8F1E5;
     padding-bottom: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .bodyLeft {
@@ -62,16 +77,10 @@ body {
     position: relative;
 }
 
-.carousel-inner>.item>img,
-.carousel-inner>.item>a>img {
-    width: 100%;
-    margin: 0 auto;
-}
-
 .centeredText {
     text-align: center;
-    display: inline-block;
-    color: #F8F1E5;
+    display: block;
+    color: 2F3131;
 }
 
 .centerText {
@@ -118,6 +127,13 @@ hr {
     width: 200px; 
 }
 
+.MainLogo {
+    width: 100px;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
 .myCarousel {
     width: 100%;
     height: 125px;
@@ -140,6 +156,8 @@ hr {
     background-color: #FEF1E5;
     width: 250px;
     padding: 10px;
+    top: auto;
+    margin-right: 25px;
 }
 
 .myModal {
@@ -164,25 +182,39 @@ hr {
     border-radius: 10px;
 }
 
-.myNavbars {
-    color: #2F3131;
-}
-
-.nerdNavbar {
-    background-color: #2F3131;
-    color: #F8F1E5;
-    vertical-align: middle;
-    height: auto;
-}
-
 .navbar-right {
     margin-right: 2px;
     margin-top: 2px;
     color: #2F3131;
 }
 
+.SNdnSearch {
+    padding-top: 35px;
+    border-radius: 50px;
+}
+
 .SNnav {
-    margin-top: 10px;
+    padding-top: 25px;
+    padding-right: 5px;
+    width: auto;
+}
+
+.SNnavlinks {
+    color: #F8F1E5;
+    width: 175px;
+    border: 2px solid #F8F1E5;
+    border-radius: 20px;
+}
+
+.SNnavlogin {
+    color: limegreen;
+    width: 175px;
+    border: 2px solid #F8F1E5;
+    border-radius: 20px;
+}
+
+.SNactivelink {
+    border: 2px solid limegreen;
 }
 
 .nerdDiv1 {
@@ -204,24 +236,6 @@ hr {
 .rightText {
     text-align: right;
 }
-
-<nav class="navbar navbar-fixed-top nerdNavbar">
-        <nav class="navbar-brand"><a href="index.html" class="aInherit">SiteNerd</a></nav>
-        <nav class="navbar-right pull-right">
-            <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <i class="fa fa-bars fa-lg aInherit" aria-hidden="true"></i>
-    </button>
-            <ul class="dropdown-menu nav nav-pills nav-stacked myDropdown">
-                <li class="myInactive"><a href="#">Plans & Pricing</a></li>
-                <li class="myInactive"><a href="#">About SiteNerd</a></li>
-                <li class="myInactive"><a href="#">Blog</a></li>
-                <li class="myInactive"><a href="#">Support</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="myActive"><a href="#" id="loginLink">Login</a></li>
-            </ul>
-        </nav>
-
-    </nav>
 
 
 
